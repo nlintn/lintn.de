@@ -1,5 +1,4 @@
 .wrapper { 
-  cursor: none;
   height: 100%;
   width: 100%;
   left:0;
@@ -14,6 +13,10 @@ background-size: 1800% 1800%;
 -z-animation: rainbow 18s ease infinite;
 -o-animation: rainbow 18s ease infinite;
   animation: rainbow 18s ease infinite;}
+
+.wrapper > * {
+  cursor: none;
+}
 
 @-webkit-keyframes rainbow {
     0%{background-position:0% 82%}
